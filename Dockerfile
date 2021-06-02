@@ -1,4 +1,4 @@
-FROM golang:1.14.17-alpine
+FROM golang:1.14.15-alpine
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	bzip2 \
 	unzip \
